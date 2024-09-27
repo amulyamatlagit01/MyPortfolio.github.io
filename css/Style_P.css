@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    background-color: #000000; /* Black background */
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Font similar to the one in the picture */
+    color: white; /* Default text color */
+    font-size: 0.9em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full screen height */
+}
+
+.container {
+    width: 80%; /* Reduced width to avoid stretching the entire page */
+    display: flex;
+    justify-content: center; /* Center both text and image */
+    align-items: center;
+    padding: 0; /* Remove extra padding */
+    /*gap: 20px; /* Space between text and image */
+}
+
+.text-container {
+    text-align: left; /* Align text to the left */
+    display: flex;
+    flex-direction: column; /* Stack the text */
+    justify-content: center; /* Center text vertically */
+    
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    
+}
+
+p {
+    font-size: 1.4em;
+    margin: 10px 0;
+    
+}
+
+
+.amulya-photo {
+    width: 250px; /* Adjust image size */
+    height: 250px; /* Circular shape */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensure the image covers the area */
+    margin-left: 10px; /* Space between text and image */
+}
+
+nav {
+    margin-top: 10px; /* Adjust the margin to move the menu closer */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    
+    color: white;
+    text-decoration: none;
+    margin:0px 5px 10px; /* Adjusted margin for closer spacing */
+    
+    font-size: 1.1em; /* Reduced font size for the navigation links */
+    font-weight: 600; /* Similar font weight to match the picture */
+}
+
+nav a:hover {
+    color: #800080; /* Purple color on hover */
+}
+
+/* CSS for cursor effect */
+.role {
+    font-weight: bold;
+    color: #2a9d8f; /* Adjust color as needed */
+    padding: 0.2em;
+    font-size: 1.1Sem;
+    display: inline-block;
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    
+}
+
+.role::after {
+    content: '|';
+    position: absolute;
+    right: 0;
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*-----------------------------------------------*/
+
+/* About Page */
+ h1 {
+    color:white; /* Unique color for Skills page heading */
+   
+}
+.About-page P {
+    color: hsl(120, 27%, 96%);
+    font-size: 1.1em;
+}
+.About-page {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Vertically center content */
+    justify-content: space-between; /* Ensure space between text and image */
+    height: 100vh; /* Full height of the viewport */
+    flex-direction: row-reverse;
+}
+
+.profile-photo {
+    height: 90vh; /* Adjust the height of the image to 90% of the viewport */
+    width: auto; /* Let the width adjust automatically */
+    margin-right: 20px; /* Space between the image and the right side */
+}
+
+.profile-photo img {
+    height: 100%; /* Ensure the image takes full height of its container */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the whole image is visible */
+    object-position: center; /* Center the image inside the container */
+}
+.text-container h1{
+   color: white;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; /* Ensure the text stacks top to bottom */
+    justify-content: center; /* Vertically center the text */
+    align-items: flex-start; /* Align text to the left */
+    width: 40%; /* Set width for the text container */
+    padding-right: 20px; /* Add space between text and image */
+}
+.contact-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row; /* Arrange icons in a row */
+    gap: 15px; /* Space between the contact icons */
+}
+
+.contact-info a {
+    display: inline-block;
+}
+/*-----------------------------------------------*/
+.Project-page p{
+    font-size: 1.1em;
+}
+/* Image Size Styling */
+.Project-page img {
+    width: 150px; /* Set the width of the images */
+    height: auto; /* Keep the aspect ratio intact */
+    max-height: 150px; /* Ensure images don’t exceed a certain height */
+    object-fit: cover; /* Ensures the image fits within the given dimensions */
+    margin: 10px; /* Optional: Add spacing around the images */
+    border-radius: 10px; /* Optional: Round the corners of the images */
+}
+
+/* Image Size Styling */
+.section {
+    /*text-align: left; /* Align text to the left */
+   /* display: flex;
+    flex-direction: column; /* Stack the text */
+    
+    font-size: 0.9em;
+    justify-content: center; /* Center text vertically */
+
+}
+.section img{
+    width: 150px; /* Set the width of the images */
+    height: auto; /* Keep the aspect ratio intact */
+    max-height: 150px; /* Ensure images don’t exceed a certain height */
+    object-fit: cover; /* Ensures the image fits within the given dimensions */
+    margin: 10px; /* Optional: Add spacing around the images */
+    border-bottom: 2px solid #ccc;
+    border-radius: 10px; /* Optional: Round the corners of the images */
+}
+.section p{
+ font-size: 1.1em;
+ 
+}
+
+.Certifications img {
+    width: 150px; /* Set the width of the images */
+    height: auto; /* Keep the aspect ratio intact */
+    max-height: 150px; /* Ensure images don’t exceed a certain height */
+    object-fit: cover; /* Ensures the image fits within the given dimensions */
+    margin: 10px; /* Optional: Add spacing around the images */
+    border-bottom: 2px solid #ccc;
+    border-radius: 10px; /* Optional: Round the corners of the images */
+}
+
+.skills-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Responsive grid layout */
+    gap: 15px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.skill {
+    text-align: center; /* Centers the image and text */
+}
+
+.skill img {
+    width: 100px;
+    height: auto;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+.skill p {
+    font-size: 0.8em;
+    color: #fff; /* White text color */
+    margin: 0;
+}
+
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-logo {
+    width: 40px; /* Adjust size as needed */
+    height: auto;
+}
+
+.social-logo:hover {
+    opacity: 0.8; /* Optional: adds a hover effect */
+}
+
+.skills-section {
+    margin: 20px;
+}
+
+.tech-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.tech-icons img {
+    max-width: 100px; /* Adjust size as needed */
+    padding: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
