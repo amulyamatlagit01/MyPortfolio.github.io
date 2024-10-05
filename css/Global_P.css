@@ -38,21 +38,18 @@ header {
     z-index: 1000;
 }
 .Home-page .hamburger {
-    position: absolute;
-    top: 20px;
-    right: 20px; /* Positioning it to the right on the index page */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 20px;
     cursor: pointer;
+    display: inline-block;
+    right: 20px; /* Positioning it to the right on the index page */
+    
 }
 
 .Home-page .bar {
-    width: 100%;
+    width: 35px;
     height: 4px;
     background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
 }
 
 /* Desktop Navigation */
