@@ -45,57 +45,44 @@ nav ul li a {
     position: relative;
 }
 
-/* Hamburger menu hidden by default for desktop */
-/*.hamburger {
-    display: none;
-    cursor: pointer;
-}
-
-.hamburger div {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 4px 0;
-}
-
-/* Mobile Navigation */
-/*@media (max-width: 768px) {
-    nav ul {
-        display: none; /* Hide the menu by default */
-       /* flex-direction: column;
-        background-color: #083151;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 200px;
-        text-align: right;
-    }
-
-    nav ul.active {
-        display: flex; /* Show the menu when hamburger is clicked */
-    /*}
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    /* Show the hamburger menu for mobile */
-    /*.hamburger {
-        display: block;
-    }
-}
-
+/* Hamburger Menu */
 .hamburger {
-    position: absolute;
-    top: 20px; /* Adjust this as needed */
-   /* right: 20px; /* Adjust this as needed */
-   /* display: none;
     cursor: pointer;
+    display: inline-block;
 }
 
-.hamburger div {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 4px 0;
-}*/
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    background-color: #fff;
+    width: 200px;
+    padding: 10px;
+}
+
+.nav-links li {
+    margin: 10px 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Show the navigation when active */
+.nav-active {
+    display: flex; /* Show the nav links when active */
+}
