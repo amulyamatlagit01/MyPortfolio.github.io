@@ -107,3 +107,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
+//------------------------------------chnage for menu-----
+function toggleMenu() {
+    var menu = document.getElementById('menu');
+    menu.classList.toggle('active');
+}
