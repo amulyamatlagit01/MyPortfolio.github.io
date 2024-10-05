@@ -43,9 +43,9 @@ p {
 }
 
 
-.amulya-photo {
-    width: 250px; /* Adjust image size */
-    height: 250px; /* Circular shape */
+.Mainamu-photo {
+    width: 150px; /* Adjust image size */
+    height: 150px; /* Circular shape */
     border-radius: 50%; /* Make it circular */
     object-fit: cover; /* Ensure the image covers the area */
     margin-left: 10px; /* Space between text and image */
