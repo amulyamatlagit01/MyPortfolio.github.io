@@ -44,11 +44,11 @@ p {
 
 
 .Mainamu-photo {
-    width: 150px; /* Adjust image size */
-    height: 150px; /* Circular shape */
-    border-radius: 50%; /* Make it circular */
+    width: 350px; /* Adjust image size */
+    height: 350px; /* Circular shape */
+    border-radius: 80%; /* Make it circular */
     object-fit: cover; /* Ensure the image covers the area */
-    margin-left: 10px; /* Space between text and image */
+    margin-left: 5px; /* Space between text and image */
 }
 
 nav {
