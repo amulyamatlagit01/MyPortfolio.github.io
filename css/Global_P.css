@@ -37,6 +37,23 @@ header {
     width: 100%;
     z-index: 1000;
 }
+.Home-page .hamburger {
+    position: absolute;
+    top: 20px;
+    right: 20px; /* Positioning it to the right on the index page */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.Home-page .bar {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+}
 
 /* Desktop Navigation */
 nav ul {
@@ -62,7 +79,7 @@ nav ul li a {
 .hamburger {
     cursor: pointer;
     display: inline-block;
-    right: 20px; /* Positioning it to the right on the index page */
+    
 }
 
 .bar {
