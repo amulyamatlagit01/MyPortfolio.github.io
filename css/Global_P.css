@@ -40,8 +40,9 @@ header {
 .hamburger {
     cursor: pointer;
     display: inline-block;
-    margin-left: auto; /* Moves hamburger to the right */
-    margin-right: 20px; /* Optional: add space between hamburger and right edge */
+    position: absolute; /* Absolute positioning to place it at top-right */
+    top: 15px; /* Adjust vertical position */
+    right: 20px; /* Adjust horizontal position to move it away from the edge */
 }
 
 /* Hamburger Bars */
