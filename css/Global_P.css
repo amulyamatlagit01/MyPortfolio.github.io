@@ -62,6 +62,7 @@ nav ul li a {
 .hamburger {
     cursor: pointer;
     display: inline-block;
+    right: 20px; /* Positioning it to the right on the index page */
 }
 
 .bar {
