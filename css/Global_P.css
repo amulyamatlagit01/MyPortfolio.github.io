@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     position: fixed;
     top: 0;
     left: 0;
@@ -25,10 +25,12 @@ header {
     font-weight: bold;
 }
 .custom-header {
-    background-color: #010101; /* Different background color */
-    color: #fff;
-    padding: 5px 15px; /* Different padding */
-    height: 60px; /* Set a custom height */
+    background-color: #060606;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
     position: fixed;
     top: 0;
     left: 0;
