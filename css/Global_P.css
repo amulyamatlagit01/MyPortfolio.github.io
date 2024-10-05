@@ -62,6 +62,8 @@ nav ul li a {
 .hamburger {
     cursor: pointer;
     display: inline-block;
+    margin-right: 20px; /* Push it to the right side */
+    order: 2; /* Ensures it's on the right side in flex */
     
 }
 
