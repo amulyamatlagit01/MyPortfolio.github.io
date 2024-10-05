@@ -47,10 +47,10 @@ header {
 
 /* Hamburger Bars */
 .bar {
-    width: 35px;
-    height: 5px;
+    width: 25px;
+    height: 3px;
     background-color: #f4eeee;
-    margin: 6px 0;
+    margin: 4px 0;
     transition: 0.4s;
 }
 
