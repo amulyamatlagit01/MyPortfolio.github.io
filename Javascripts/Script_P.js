@@ -108,12 +108,25 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 //------------------------------------chnage for menu-----
+//function toggleMenu() {
+//    var menu = document.getElementById('menu');
+//   menu.classList.toggle('active');
+//}
+
+//document.getElementById('hamburger').addEventListener('click', function() {
+   //   const nav = document.getElementById('nav');
+ //   nav.classList.toggle('active'); // Toggle the visibility of the nav
+//});
+
+// Toggle the hamburger menu and navigation
 function toggleMenu() {
-    var menu = document.getElementById('menu');
-    menu.classList.toggle('active');
+    const menu = document.getElementById('menu'); // The navigation menu
+    const hamburger = document.getElementById('hamburger'); // The hamburger icon
+
+    menu.classList.toggle('active'); // Toggle the visibility of the menu
+    hamburger.classList.toggle('active'); // Optional: to style the hamburger when active
 }
 
-document.getElementById('hamburger').addEventListener('click', function() {
-    const nav = document.getElementById('nav');
-    nav.classList.toggle('active'); // Toggle the visibility of the nav
-});
+// Add event listener to the hamburger menu icon
+document.getElementById('hamburger').addEventListener('click', toggleMenu);
+
