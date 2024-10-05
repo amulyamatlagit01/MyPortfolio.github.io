@@ -112,3 +112,8 @@ function toggleMenu() {
     var menu = document.getElementById('menu');
     menu.classList.toggle('active');
 }
+
+document.getElementById('hamburger').addEventListener('click', function() {
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active'); // Toggle the visibility of the nav
+});
