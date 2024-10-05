@@ -119,14 +119,14 @@ document.addEventListener('DOMContentLoaded', () => {
 //});
 
 // Toggle the hamburger menu and navigation
-function toggleMenu() {
-    const menu = document.getElementById('menu'); // The navigation menu
-    const hamburger = document.getElementById('hamburger'); // The hamburger icon
+//function toggleMenu() {
+  //  const menu = document.getElementById('menu'); // The navigation menu
+   // const hamburger = document.getElementById('hamburger'); // The hamburger icon
 
-    menu.classList.toggle('active'); // Toggle the visibility of the menu
-    hamburger.classList.toggle('active'); // Optional: to style the hamburger when active
-}
+   // menu.classList.toggle('active'); // Toggle the visibility of the menu
+   // hamburger.classList.toggle('active'); // Optional: to style the hamburger when active
+//}
 
 // Add event listener to the hamburger menu icon
-document.getElementById('hamburger').addEventListener('click', toggleMenu);
+//document.getElementById('hamburger').addEventListener('click', toggleMenu);
 

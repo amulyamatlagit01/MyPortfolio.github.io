@@ -46,7 +46,7 @@ nav ul li a {
 }
 
 /* Hamburger menu hidden by default for desktop */
-.hamburger {
+/*.hamburger {
     display: none;
     cursor: pointer;
 }
@@ -59,10 +59,10 @@ nav ul li a {
 }
 
 /* Mobile Navigation */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     nav ul {
         display: none; /* Hide the menu by default */
-        flex-direction: column;
+       /* flex-direction: column;
         background-color: #083151;
         position: absolute;
         top: 60px;
@@ -73,14 +73,14 @@ nav ul li a {
 
     nav ul.active {
         display: flex; /* Show the menu when hamburger is clicked */
-    }
+    /*}
 
     nav ul li {
         margin: 10px 0;
     }
 
     /* Show the hamburger menu for mobile */
-    .hamburger {
+    /*.hamburger {
         display: block;
     }
 }
@@ -88,8 +88,8 @@ nav ul li a {
 .hamburger {
     position: absolute;
     top: 20px; /* Adjust this as needed */
-    right: 20px; /* Adjust this as needed */
-    display: none;
+   /* right: 20px; /* Adjust this as needed */
+   /* display: none;
     cursor: pointer;
 }
 
@@ -98,5 +98,4 @@ nav ul li a {
     height: 3px;
     background-color: white;
     margin: 4px 0;
-}
-
+}*/
