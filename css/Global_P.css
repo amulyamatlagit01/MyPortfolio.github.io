@@ -63,7 +63,7 @@ nav ul li a {
     nav ul {
         display: none; /* Hide the menu by default */
         flex-direction: column;
-        background-color: #2c83c5;
+        background-color: #083151;
         position: absolute;
         top: 60px;
         right: 0;
@@ -83,4 +83,22 @@ nav ul li a {
     .hamburger {
         display: block;
     }
+}
+
+.hamburger {
+    position: absolute;
+    top: 20px; /* Adjust this as needed */
+    right: 20px; /* Adjust this as needed */
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+.no-hamburger .hamburger {
+    display: none;
 }
