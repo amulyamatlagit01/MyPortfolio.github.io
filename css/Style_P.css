@@ -320,6 +320,6 @@ h2 {
 }
 
 .amulya-photo, .profile-photo img {
-    max-width: 80%; /* Ensure the image never exceeds its container width */
-    height: auto; /* Maintain the aspect ratio */
+    max-width: 229px;
+    height: 581px;
 }
