@@ -276,19 +276,28 @@ h2 {
 }
 
 /*----------------------------------------------------------------------------*/
-@media (max-width: 768px) { /* Tablets and smaller screens */
+/* Default Styles for Larger Screens (Laptops and Desktops) */
+.amulya-photo, .profile-photo img {
+    width: 250px; /* Default size for larger screens */
+    height: 250px; /* Keep it circular */
+    max-width: 80%; /* Ensure the image never exceeds its container width */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+/* Styles for Tablets and Smaller Screens (up to 768px) */
+@media (max-width: 768px) { 
     .container, .text-container {
         flex-direction: column; /* Stack the text and image vertically */
         align-items: center; /* Center them */
         text-align: center; /* Center the text */
     }
     .amulya-photo, .profile-photo img {
-        width: 150px; /* Smaller image size for mobile */
+        width: 150px; /* Smaller image size for tablets */
         height: 150px; /* Keep it circular */
         margin: 10px 0; /* Add space between image and text */
     }
     h1 {
-        font-size: 1.5em; /* Smaller heading size for mobile */
+        font-size: 1.5em; /* Smaller heading size for tablets */
     }
     p {
         font-size: 1.2em; /* Smaller paragraph size for readability */
@@ -298,7 +307,8 @@ h2 {
     }
 }
 
-@media (max-width: 480px) { /* Mobile phones */
+/* Styles for Mobile Phones (up to 480px) */
+@media (max-width: 480px) { 
     .container, .text-container {
         width: 100%; /* Make the container full width */
         padding: 0 20px; /* Add some padding for better mobile view */
@@ -317,9 +327,4 @@ h2 {
         font-size: 0.9em; /* Further reduce navigation link size */
         margin: 5px; /* Reduce margin for better fit */
     }
-}
-
-.amulya-photo, .profile-photo img {
-    max-width: 80%; /* Ensure the image never exceeds its container width */
-    height: auto; /* Maintain the aspect ratio */
 }
