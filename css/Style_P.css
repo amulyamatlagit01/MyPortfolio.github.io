@@ -313,9 +313,8 @@ h2 {
     .profile-photo img {
         width: 50px; /* Smaller image size for tablets */
         height: auto; /* Maintain aspect ratio */
-        /*margin: 10px 0; /* Add space between the image and text */
-        margin: 20px auto; /* Center image horizontally and add vertical spacing */
-        display: block; /* Make the image a block element for centering */
+        margin: 10px 0; /* Add space between the image and text */
+        margin-right: 50px;
         /*max-height: 150px; /* Ensure images don’t exceed a certain height */
         object-fit: cover; /* Ensures the image fits within the given dimensions */
         /*margin: 10px; /* Optional: Add spacing around the images */
@@ -347,9 +346,8 @@ h2 {
     .profile-photo img {
         width: 150px; /* Smaller image for mobile */
         height: auto; /* Keep it circular */
-        /*margin: 10px 0; /* Add space between the image and text */
-        /*margin-right: 60px;
-        margin: 5px auto; /* Center image with minimal margin */
+        margin: 10px 0; /* Add space between the image and text */
+        margin-right: 60px;
         /*max-height: 150px; /* Ensure images don’t exceed a certain height */
         object-fit: cover; /* Ensures the image fits within the given dimensions */
         /*margin: 10px; /* Optional: Add spacing around the images */
