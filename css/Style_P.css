@@ -288,17 +288,17 @@ h2 {
     padding: 20px; /* Add padding for spacing */
 }
 
-.profile-photo {
+/*.profile-photo {
     margin: 0; /* Remove margin if you want to position the image tightly */
-}
+/*}
 
 .profile-photo img {
     width: 300px; /* Default size for laptops */
-    height: auto; /* Keep aspect ratio */
-    object-fit: cover; /* Ensure the image fits nicely */
-    margin-top: 0; /* No margin at the top */
-    margin-bottom: 20px; /* Add some space below the image */
-}
+   /* height: auto; /* Keep aspect ratio */
+  /*  object-fit: cover; /* Ensure the image fits nicely */
+  /*  margin-top: 0; /* No margin at the top */
+  /*  margin-bottom: 20px; /* Add some space below the image */
+/*}
 
 /* Tablets and smaller screens (max-width: 768px) */
 @media (max-width: 768px) { 
