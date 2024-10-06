@@ -124,7 +124,7 @@ nav a:hover {
 }
 
 .profile-photo {
-    height: 50vh; /* Adjust the height of the image to 90% of the viewport */
+    height: 30vh; /* Adjust the height of the image to 90% of the viewport */
     width: auto; /* Let the width adjust automatically */
     margin-right: 10px; /* Space between the image and the right side */
 }
