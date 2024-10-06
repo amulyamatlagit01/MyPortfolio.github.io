@@ -146,15 +146,10 @@ nav a:hover {
     flex-direction: column; /* Ensure the text stacks top to bottom */
     justify-content: center; /* Vertically center the text */
     align-items: flex-start; /* Align text to the left */
-    width: 80%; /* Set width for the text container */
-    padding-right: 40px; /* Add space between text and image */
+    width: 100%; /* Set width for the text container */
+    padding-right: 20px; /* Add space between text and image */
 }
-@media (max-width: 480px) { /* Mobile phones */
-    .container, .text-container {
-        width: 100%; /* Make the container full width */
-        padding: 0 20px; /* Add some padding for better mobile view */
-    }
-}
+
 .contact-info {
     margin-top: 20px;
     display: flex;
@@ -285,52 +280,3 @@ h2 {
 }
 
 /*----------------------------------------------------------------------------*/
-@media (max-width: 768px) { /* Tablets and smaller screens */
-    .container, .text-container {
-        flex-direction: column; /* Stack the text and image vertically */
-        align-items: center; /* Center them */
-        text-align: center; /* Center the text */
-    }
-    .amulya-photo, .profile-photo img {
-        width: 150px; /* Smaller image size for mobile */
-        height: 150px; /* Keep it circular */
-        margin: 10px 0; /* Add space between image and text */
-    }
-    h1 {
-        font-size: 1.5em; /* Smaller heading size for mobile */
-    }
-    p {
-        font-size: 1.2em; /* Smaller paragraph size for readability */
-    }
-    nav a {
-        font-size: 1em; /* Adjust navigation link size */
-    }
-}
-
-@media (max-width: 480px) { /* Mobile phones */
-    .container, .text-container {
-        width: 100%; /* Make the container full width */
-        padding: 0 20px; /* Add some padding for better mobile view */
-    }
-    .amulya-photo, .profile-photo img {
-        width: 80px; /* Even smaller image for mobile */
-        height: 80px;
-    }
-    h1 {
-        font-size: 1.3em; /* Even smaller heading size for mobile */
-    }
-    p {
-        font-size: 1em; /* Adjust font size */
-    }
-    nav a {
-        font-size: 0.9em; /* Further reduce navigation link size */
-        margin: 5px; /* Reduce margin for better fit */
-    }
-}
-
-.amulya-photo, .profile-photo img {
-    max-width: 100%; /* Ensure the image never exceeds its container width */
-    height: auto; /* Maintain the aspect ratio */
-    object-fit: cover; /* Cover the container if needed */
-}
-
