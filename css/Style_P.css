@@ -147,6 +147,12 @@ nav a:hover {
     width: 40%; /* Set width for the text container */
     padding-right: 20px; /* Add space between text and image */
 }
+@media (max-width: 480px) { /* Mobile phones */
+    .container, .text-container {
+        width: 100%; /* Make the container full width */
+        padding: 0 20px; /* Add some padding for better mobile view */
+    }
+}
 .contact-info {
     margin-top: 20px;
     display: flex;
