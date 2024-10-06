@@ -338,18 +338,18 @@ h2 {
         padding: 0 20px; /* Add padding for mobile view */
     }
 
-    .profile-photo img {
+    /*.profile-photo img {
         width: 150px; /* Smaller image for mobile */
-        height: auto; /* Keep it circular */
-        margin: 10px 0; /* Add space between the image and text */
-        margin-right: 60px;
+       /* height: auto; /* Keep it circular */
+       /* margin: 10px 0; /* Add space between the image and text */
+       /* margin-right: 60px;
         /*max-height: 150px; /* Ensure images don’t exceed a certain height */
-        object-fit: cover; /* Ensures the image fits within the given dimensions */
+       /* object-fit: cover; /* Ensures the image fits within the given dimensions */
         /*margin: 10px; /* Optional: Add spacing around the images */
-        border-bottom: 2px solid #ccc;
+       /* border-bottom: 2px solid #ccc;
         border-radius: 10px; /* Optional: Round the corners of the images */
         
-    }
+    /*}*/
 
     h1 {
         font-size: 1.3em; /* Adjust heading size for mobile */
