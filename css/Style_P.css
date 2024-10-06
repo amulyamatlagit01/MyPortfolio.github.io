@@ -22,7 +22,7 @@ body {
     /*gap: 20px; /* Space between text and image */
 }
 
-.text-container {
+.abouttext-container {
     text-align: left; /* Align text to the left */
     display: flex;
     flex-direction: column; /* Stack the text */
