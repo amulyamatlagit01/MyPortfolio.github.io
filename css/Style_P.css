@@ -146,7 +146,7 @@ nav a:hover {
     flex-direction: column; /* Ensure the text stacks top to bottom */
     justify-content: center; /* Vertically center the text */
     align-items: flex-start; /* Align text to the left */
-    width: 100%; /* Set width for the text container */
+    width: 80%; /* Set width for the text container */
     padding-right: 20px; /* Add space between text and image */
 }
 
@@ -280,3 +280,15 @@ h2 {
 }
 
 /*----------------------------------------------------------------------------*/
+@media (max-width: 480px) { /* Mobile phones */
+    .container, .text-container {
+        width: 100%; /* Make the container full width */
+        padding: 0 20px; /* Add some padding for better mobile view */
+    }
+
+    img {
+        display: block;
+        margin-top: 20px; /* Add space between the text and the image */
+        width: 100%; /* Adjust image size for mobile */
+    }
+}
