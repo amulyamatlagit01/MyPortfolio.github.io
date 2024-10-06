@@ -123,20 +123,19 @@ nav a:hover {
     flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
-.profile-photo {
-    margin-top: 50px; /* Adjust the value as needed */
+/*.profile-photo {
     height: 90vh; /* Adjust the height of the image to 90% of the viewport */
-    width: auto; /* Let the width adjust automatically */
-    margin-right: 20px; /* Space between the image and the right side */
+   /* width: auto; /* Let the width adjust automatically */
+   /* margin-right: 20px; /* Space between the image and the right side */
     
-}
+/*}
 
 .profile-photo img {
     height: 100%; /* Ensure the image takes full height of its container */
-    width: auto; /* Maintain aspect ratio */
-    object-fit: contain; /* Ensure the whole image is visible */
-    object-position: center; /* Center the image inside the container */
-}
+  /*  width: auto; /* Maintain aspect ratio */
+    /*object-fit: contain; /* Ensure the whole image is visible */
+    /*object-position: center; /* Center the image inside the container */
+/*}*/
 .text-container h1{
    color: white;
 }
