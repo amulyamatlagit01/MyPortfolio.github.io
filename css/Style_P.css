@@ -279,25 +279,25 @@ h2 {
 }
 
 /*----------------------------------------------------------------------------*/
-/* General styles for larger screens (laptops and desktops) */
+/* Styles for the about page */
 .container, .text-container {
     display: flex;
     flex-direction: column; /* Stack text and image vertically */
-    align-items: center; /* Center the content horizontally */
-    text-align: center; /* Center the text */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding for spacing */
 }
 
 .profile-photo {
-    width: 100%; /* Ensure it spans the width of the container */
-    display: flex;
-    justify-content: center; /* Center the image horizontally */
+    margin: 0; /* Remove margin if you want to position the image tightly */
 }
 
 .profile-photo img {
     width: 300px; /* Default size for laptops */
-    height: auto; /* Keep the image circular */
+    height: auto; /* Keep aspect ratio */
     object-fit: cover; /* Ensure the image fits nicely */
-    margin: 20px 0; /* Add space around the image */
+    margin-top: 0; /* No margin at the top */
+    margin-bottom: 20px; /* Add some space below the image */
 }
 
 /* Tablets and smaller screens (max-width: 768px) */
