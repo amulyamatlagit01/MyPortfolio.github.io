@@ -281,6 +281,14 @@ h2 {
 }
 
 /*----------------------------------------------------------------------------*/
+/* Styles for the about page */
+.container, .text-container {
+    display: flex;
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding for spacing */
+}
 /* For the profile photo container */
 .profile-photo {
     display: flex;  /* Use flexbox for layout */
@@ -319,5 +327,6 @@ h2 {
 
     .profile-photo img {
         width: 150px;  /* Smaller image size for mobile */
+        margin-top: 30px;
     }
 }
