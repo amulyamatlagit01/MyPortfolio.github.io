@@ -327,5 +327,19 @@ h2 {
 
     .profile-photo img {
         width: 150px;  /* Smaller image size for mobile */
+        height: auto; /* Keep it circular */
+        margin-top: 20px;
+    }
+    h1 {
+        font-size: 1.3em; /* Adjust heading size for mobile */
+    }
+
+    p {
+        font-size: 1em; /* Adjust paragraph size for readability */
+    }
+
+    nav a {
+        font-size: 0.9em; /* Adjust navigation link size */
+        margin: 5px; /* Reduce margin for better fit */
     }
 }
