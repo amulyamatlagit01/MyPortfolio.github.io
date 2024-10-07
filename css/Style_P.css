@@ -281,87 +281,43 @@ h2 {
 }
 
 /*----------------------------------------------------------------------------*/
-/* Styles for the about page */
-.container, .text-container {
-    display: flex;
-    flex-direction: column; /* Stack text and image vertically */
-    align-items: center; /* Center content horizontally */
-    text-align: center; /* Center text */
-    padding: 20px; /* Add padding for spacing */
-}
-
+/* For the profile photo container */
 .profile-photo {
-    margin: 0;
-    display: flex; /* Ensure the container for the image uses flexbox */
-    justify-content: center; /* Center the image horizontally */
-    align-items: center; /* Center the image vertically */
+    display: flex;  /* Use flexbox for layout */
+    justify-content: center;  /* Center the image horizontally */
+    align-items: center;  /* Center the image vertically */
+    margin: 0 auto;  /* Center the container itself */
+    height: 100vh;  /* Make it take up full screen height */
+    text-align: center;  /* Center any text inside */
 }
 
+/* Profile image styling */
 .profile-photo img {
-    width: 300px; /* Default size for laptops */
-    height: auto;
-    object-fit: cover;
-    margin-top: 0;
-    margin-bottom: 20px;
-    border-radius: 10px;
+    width: 300px;  /* Default size for larger screens */
+    height: auto;  /* Maintain aspect ratio */
+    object-fit: cover;  /* Ensure the image fits nicely */
+    border-radius: 10px;  /* Optional: Add rounded corners */
+    margin: 0;  /* Remove any extra margins */
 }
 
 /* Tablets and smaller screens (max-width: 768px) */
 @media (max-width: 768px) { 
-    .container, .text-container {
-        display: flex;
-        flex-direction: column; 
-        align-items: center;
-        justify-content: center; /* Center content vertically */
-        text-align: center;
+    .profile-photo {
+        height: auto;  /* Remove full height on smaller screens */
     }
 
     .profile-photo img {
-        width: 150px;
-        margin: 10px 0;
-        border-radius: 10px;
-    }
-
-    h1 {
-        font-size: 1.5em;
-    }
-
-    p {
-        font-size: 1.2em;
-    }
-
-    nav a {
-        font-size: 1em;
+        width: 150px;  /* Smaller image size for tablets */
     }
 }
 
 /* Mobile phones (max-width: 480px) */
 @media (max-width: 480px) { 
-    .container, .text-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0 20px;
+    .profile-photo {
+        height: auto;  /* Adjust height for mobile */
     }
 
     .profile-photo img {
-        width: 150px;
-        margin: 10px;
-        border-radius: 10px;
-        object-fit: cover;
-    }
-
-    h1 {
-        font-size: 1.3em;
-    }
-
-    p {
-        font-size: 1em;
-    }
-
-    nav a {
-        font-size: 0.9em;
-        margin: 5px;
+        width: 150px;  /* Smaller image size for mobile */
     }
 }
