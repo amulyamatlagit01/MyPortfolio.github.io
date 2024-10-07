@@ -260,6 +260,19 @@ photo {
     margin: 30px;
     
 }
+@media screen and (max-width: 487px) {
+    .skills-section {
+      padding-left: 15px;
+      padding-right: 15px;
+      overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+    .skills-section .skills-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Center the icons */
+    }
+  }
+  
 
 .tech-icons {
     display: flex;
