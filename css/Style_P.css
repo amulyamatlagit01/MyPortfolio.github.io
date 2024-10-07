@@ -315,6 +315,7 @@ h2 {
         height: auto; /* Maintain aspect ratio */
         margin: 10px 0; /* Add space between the image and text */
        align-items: center; /* Center the content horizontally */
+       margin-top: 40px;
                 
     }
 
@@ -343,7 +344,8 @@ h2 {
         height: auto; /* Keep it circular */
         /*margin: 10px 0; /* Add space between the image and text */
         margin-right: 60px;
-        /max-height: 150px; /* Ensure images don’t exceed a certain height */
+        margin-top: 40px;
+        /*max-height: 150px; /* Ensure images don’t exceed a certain height */
         object-fit: cover; /* Ensures the image fits within the given dimensions */
         margin: 10px; /* Optional: Add spacing around the images */
         border-bottom: 2px solid #ccc;
